@@ -4,24 +4,23 @@
     <meta charset="utf-8">
     <meta name="description" content=""> <!-- DEMANDER UN TEXTE A MON PERE AFIN DE CREER LE SEO -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- je link les icones de materialize si besion neccessaire -->
-    <link rel="stylesheet" href="../../css/master.css"> <!-- je link mon css afin de chager les parametre de ma page -->
+    <link rel="stylesheet" href="../../css/style.css"> <!-- je link mon css afin de chager les parametre de ma page -->
     <link rel="stylesheet" href="../../css/materialize.min.css"  media="screen,projection"/> <!-- j'utilise materialize pour mon site -->
 
     <title><img class="logo" src="../../image/logo.png" alt="">Debossauto.fr</title>
   </head>
   <body>
-    <head>
+    
 
       <?php $dep = ''; ?>
       <?php include '../content/nav.php' ?>
-    </head>
+    
 
+    <div class='title background'>
 
-    <h2 class="center">Acceuil</h2>
+<h1>Debossauto</h1>
 
-
-
-
+</div>
 
 
 
@@ -78,7 +77,7 @@
   <div class="row">
 
   <div class="parallax-container s10 m10 l10 offset-l1">
-<div class="parallax margin-top " ><img src="../../image/pozzi5.png">
+<div class="parallax margin-top " ><img src="../../../assets/pozzi5.png">
   </div>
     </div>
   <div class="row">

@@ -10,7 +10,7 @@
   <body>
     <head>
       <?php $dep = '';?>
-     <?php  include '../content/menu.php';?>
+     <?php  include '../content/nav.php';?>
 
     </head>
 
