@@ -41,3 +41,43 @@ h1{
 .buttons{
   padding: 50px;
 }
+.titre{
+  color: white;
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+.espace{
+  margin-top: 1000px;
+}
+
+
+
+.back{
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  animation: animate 20s ease-in-out infinite;
+  width: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@keyframes animate{
+  0%,100%{
+    background-image: url("../../assets/morgan1-3.png");
+
+  }
+  25%{
+    background-image: url("../../assets/voit1-3.png");
+  }
+  50%{
+    background-image: url("../../assets/voit2-3.png");
+  }
+  75%{
+    background-image: url("../../assets/voit3-3.png");
+  }
+
+
+
+
+}

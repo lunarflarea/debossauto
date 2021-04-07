@@ -16,10 +16,10 @@
 
 <nav class="nav-extended sidenav-trigger  blue-grey darken-1 ">
   <div class="nav-wrapper ">
-    <a class="" href='../php/index.html'><img class="margin-top" src="../../image/logo.png" alt=""></a>
+    <a class="" href='../php/index.html'><img class="margin-top" src="../../../assets/logo.png" alt=""></a>
 
     <a href="#" data-target="mobile-demo" class="sidenav-trigger">menu</i></a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <ul id="nav-mobile" class="right hide-on-med-and-down buttons">
     <li><a href="../page/index.php">Accueil</a></li>
       <li><a href="../page/presentation.php">Presentation</a></li>
       <li><a href="../page/avantages.php">Les Avantages</a></li>

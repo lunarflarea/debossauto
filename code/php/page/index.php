@@ -16,34 +16,19 @@
       <?php include '../content/nav.php' ?>
     
 
-        
+      <div class="back">
 
+  <h1 class="titre">Debossauto</h1>
 
-      <div class="carousel carousel-slider center">
-    <div class="carousel-fixed-item center">
-      <h1 class="title">Debossauto</h1>
-    </div>
-    <div class="carousel-item  white-text"  href="#one!">
-      <img class='opacity' src="../../../assets/morgan1-2.png" alt="img morgan">
-      <h1>Debossauto</h1>
-    </div>
-    <div class="carousel-item  white-text" href="#two!">
-    <img class='opacity' src="../../../assets/voit1-2.png" alt="img morgan">
-
-    <h1>Debossauto</h1>
-    </div>
-    <div class="carousel-item  white-text" href="#three!">
-    <img class='opacity' src="../../../assets/voit2.png" alt="img morgan">
-
-    <h1>Debossauto</h1>
-    </div>
-  </div>
-        
+      </div>
 
 
 
 
 
+
+
+<div class='espace'></div>
   <div class="row">
     <div class="col s12 m6">
       <div class="card blue-grey darken-1">
