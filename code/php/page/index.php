@@ -16,14 +16,29 @@
       <?php include '../content/nav.php' ?>
     
 
-    <div class='title background'>
-
-<h1>Debossauto</h1>
-
-</div>
+        
 
 
+      <div class="carousel carousel-slider center">
+    <div class="carousel-fixed-item center">
+      <h1 class="title">Debossauto</h1>
+    </div>
+    <div class="carousel-item  white-text"  href="#one!">
+      <img class='opacity' src="../../../assets/morgan1-2.png" alt="img morgan">
+      <h1>Debossauto</h1>
+    </div>
+    <div class="carousel-item  white-text" href="#two!">
+    <img class='opacity' src="../../../assets/voit1-2.png" alt="img morgan">
 
+    <h1>Debossauto</h1>
+    </div>
+    <div class="carousel-item  white-text" href="#three!">
+    <img class='opacity' src="../../../assets/voit2.png" alt="img morgan">
+
+    <h1>Debossauto</h1>
+    </div>
+  </div>
+        
 
 
 
@@ -164,6 +179,20 @@ $(document).ready(function(){
  $('.carousel.carousel-slider').carousel({
 fullWidth: true
 });
+
+
+var instance = M.Carousel.init({
+    fullWidth: true,
+    indicators: true
+  });
+
+  // Or with jQuery
+
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });
+
 </script>
   </body>
 </html>

@@ -20,12 +20,11 @@
 
     <a href="#" data-target="mobile-demo" class="sidenav-trigger">menu</i></a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="../php/index.php">Accueil</a></li>
-      <li><a href="../php/presentation.php">Presentation</a></li>
-      <li><a href="../php/avantages.php">Les Avantages</a></li>
-      <li><a href="../php/partenaires.php">Nos partenaires</a></li>
-      <li><a href="../php/contact.php">Nous contacter</a></li>
-
+    <li><a href="../page/index.php">Accueil</a></li>
+      <li><a href="../page/presentation.php">Presentation</a></li>
+      <li><a href="../page/avantages.php">Les Avantages</a></li>
+      <li><a href="../page/partenaires.php">Nos partenaires</a></li>
+      <li><a href="../page/contact.php">Nous contacter</a></li>
 
 
     </ul>
