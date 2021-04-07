@@ -1,0 +1,32 @@
+
+nav div{
+  height: 400px;
+}
+nav div ul a{
+    font-size: 20px;}
+h1{
+  text-transform: uppercase;
+}
+.logo{
+
+}
+.margin-top{
+  margin-top: 30px;
+}
+.magin-left{
+  margin-left: 30px;
+
+}
+.bold{
+  font-weight: bold;
+}
+.margin{
+  background-color: grey;
+  margin-top: 200px;
+}
+.title{
+  color:white;
+  font-size: 100px;
+  margin-left: 700px ;
+
+}
