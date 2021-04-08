@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../../css/master.css"> <!-- je link mon css afin de chager les parametre de ma page -->
+    <link rel="stylesheet" href="../../css/style.css"> <!-- je link mon css afin de chager les parametre de ma page -->
     <link rel="stylesheet" href="../../css/materialize.min.css"  media="screen,projection"/> 
     <title></title>
   </head>
@@ -16,7 +16,7 @@
 
 <nav class="nav-extended sidenav-trigger  blue-grey darken-1 ">
   <div class="nav-wrapper ">
-    <a class="" href='../php/index.html'><img class="margin-top" src="../../../assets/logo.png" alt=""></a>
+    <a class="" href='../page/index.php'><img class="margin-top" src="../../../assets/logo.png" alt=""></a>
 
     <a href="#" data-target="mobile-demo" class="sidenav-trigger">menu</i></a>
     <ul id="nav-mobile" class="right hide-on-med-and-down buttons">

@@ -17,9 +17,10 @@
     
 
       <div class="back">
-
-  <h1 class="titre">Debossauto</h1>
-
+<div class="titre">
+  <h1>Debossauto</h1>
+  <h2>24 ans d'expérience a votre disposition</h2>
+  </div>
       </div>
 
 
@@ -28,104 +29,52 @@
 
 
 
-<div class='espace'></div>
+      <div class='espace'></div>
   <div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
+    <div class="col s12 m6 offset-l2">
+      <div class="card ">
+        <div class="card-content black-text">
+        <img class="materialboxed imgmorgan" width="650" src="../../../assets/morgan5.jpg" alt="img dsp sur morgan">
+          <span class="card-title center">Qu'est ce que le D.S.P</span>
+          <p>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
+Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
+En  France, dans  les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des  professionnels de l’automobile.
+Aujourd’hui tout le monde peut profiter de ce service.</p>
+<a class="waves-effect waves-light btn" href='dsp.php'><i class="material-icons left">cloud</i>Voir Plus De Détails</a>
 
-  <div class="parallax-container s10 m10 l10 offset-l1">
-<div class="parallax margin-top " ><img src="../../../assets/pozzi5.png">
-  </div>
-    </div>
-  <div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
         </div>
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-  </div>
+ 
 
+
+  <div class="row">
+    <div class="col s12 m8 offset-l2">
+      <div class="card ">
+        <div class="card-content black-text">
+        <div class="row">
+  <div class="left-align col s6">
+    Avant
+  </div>
+  <div class="right-align col s6">
+    Apres
+  </div>
+</div>
+        <img class="materialboxed imgbosseav" width="650" src="../../../assets/avant1.jpg" alt="img dsp bosse av">
+        <img class="materialboxed imgbosseap" width="650" src="../../../assets/apres1.jpg" alt="img dsp bosse ap">
+          <span class="card-title center">Nos Services</span>
+          <p>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
+Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
+En  France, dans  les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des  professionnels de l’automobile.
+Aujourd’hui tout le monde peut profiter de ce service.</p>
+<a class="waves-effect waves-light btn" href='dsp.php'><i class="material-icons left">cloud</i>Voir Plus De Détails</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+ 
 
 
 
