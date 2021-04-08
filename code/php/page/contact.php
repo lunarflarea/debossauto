@@ -28,7 +28,11 @@
         <div class="row">
           <div class="input-field col s4">
             <input placeholder="5 Rue Quelque Part" type="text" class="validate">
+<<<<<<< HEAD
+            <label for="disabled">Adresse (où vous souhaitez l'intervention)</label>
+=======
             <label for="disabled">Adresse (oÃ¹ vous souhaitez l'intervention)</label>
+>>>>>>> 1c55f3a3e1792d5231ff57eac765420166197957
           </div>
           <div class="input-field col s4">
             <input placeholder="Ex: Paris" type="text" class="validate">
