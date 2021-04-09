@@ -59,7 +59,8 @@ h2{
   right: 0;
 
   animation: animate 15s ease-in-out infinite;
-  width: auto;
+  background-size: cover;
+  width: 100%;
   background-repeat: no-repeat;
 }
 @keyframes animate{

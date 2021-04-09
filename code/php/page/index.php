@@ -91,7 +91,6 @@ Aujourd’hui tout le monde peut profiter de ce service.</p>
       </div>
     </div>
   </div>
- <img src="../../../assets/img.png" alt="">
 
 
 
