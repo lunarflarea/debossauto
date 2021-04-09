@@ -59,7 +59,7 @@ h2{
   right: 0;
 
   animation: animate 15s ease-in-out infinite;
-  width: 1904px;
+  width: auto;
   background-repeat: no-repeat;
 }
 @keyframes animate{
