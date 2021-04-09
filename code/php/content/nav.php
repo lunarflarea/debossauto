@@ -21,7 +21,7 @@
     <a href="#" data-target="mobile-demo" class="sidenav-trigger">menu</i></a>
     <ul id="nav-mobile" class="right hide-on-med-and-down buttons">
     <li><a href="../page/index.php">Accueil</a></li>
-      <li><a href="../page/presentation.php">Presentation</a></li>
+      <li><a href="../page/dsp.php">Presentation</a></li>
       <li><a href="../page/avantages.php">Les Avantages</a></li>
       <li><a href="../page/partenaires.php">Nos partenaires</a></li>
       <li><a href="../page/contact.php">Nous contacter</a></li>
@@ -35,7 +35,7 @@
 
 <ul class="sidenav" id="mobile-demo">
   <li><a href="../php/index.php">Accueil</a></li>
-  <li><a href="../php/presentation.php">Presentation</a></li>
+  <li><a href="../php/dsp.php">Presentation</a></li>
   <li><a href="../php/avantages.php">Les Avantages</a></li>
   <li><a href="../php/partenaires.php">Nos partenaires</a></li>
   <li><a href="../php/contact.php.php">Nous contacter</a></li>

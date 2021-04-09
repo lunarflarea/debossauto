@@ -27,9 +27,25 @@
           <input placeholder="Ex: DUBOIS" id="first_name" type="text" class="validate">
           <label for="first_name">Noms</label>
         </div>
+<<<<<<< HEAD
+        <div class="row">
+          <div class="input-field col s4">
+            <input placeholder="5 Rue Quelque Part" type="text" class="validate">
+            <label for="disabled">Adresse (où vous souhaitez l'intervention)</label>
+          </div>
+          <div class="input-field col s4">
+            <input placeholder="Ex: Paris" type="text" class="validate">
+            <label for="disabled">Ville</label>
+          </div>
+          <div class="input-field col s4">
+            <input placeholder="Ex: 75000" type="text" class="validate">
+            <label for="disabled">Code Postale</label>
+          </div>
+=======
         <div class="input-field col s6">
           <input placeholder="Ex: Paul" id="last_name" type="text" class="validate">
           <label for="last_name">Prenom</label>
+>>>>>>> e66751312816ffdd96f34a787ec2f228e18b292b
         </div>
       </div>
 

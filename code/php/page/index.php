@@ -23,6 +23,9 @@
   </div>
       </div>
 
+      
+
+
 
 
 
@@ -30,8 +33,22 @@
 
 
       <div class='espace'></div>
+      <h2 class="center black-text">Qui sommes nous ?</h2>
+      <div class="row">
+<div class='col s4 m4 l4 offset-l4 center size'>
+      <p class="bold">Grâce à la technique du débosselage sans peinture, nous sommes un peu des kinésithérapeutes de l'automobile !</p>
+      <br>
+<p> DEBOSSAUTO est une société française créée en 2003 par deux collaborateurs, spécialistes de la technique du débosselage sans peinture.
+Nous justifions d'une expérience de plus de dix ans dans le métier.<br>
+<br>
+Debossauto intervient auprès des particuliers et des professionnels de l'automobile, qui vont des marques les plus courantes aux véhicules de prestiges.
+</p>
+</div>
+</div>
+
+
   <div class="row">
-    <div class="col s12 m6 offset-l2">
+    <div class="col s12 m6 offset-l3">
       <div class="card ">
         <div class="card-content black-text">
         <img class="materialboxed imgmorgan" width="650" src="../../../assets/morgan5.jpg" alt="img dsp sur morgan">
@@ -74,7 +91,7 @@ Aujourd’hui tout le monde peut profiter de ce service.</p>
       </div>
     </div>
   </div>
- 
+ <img src="../../../assets/img.png" alt="">
 
 
 
