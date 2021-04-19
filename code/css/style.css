@@ -3,7 +3,8 @@ nav div{
   height: 400px;
 }
 nav div ul a{
-    font-size: 20px;}
+  font-size: 20px;
+}
 h1{
   text-align: center;
   text-transform: uppercase;
@@ -16,6 +17,9 @@ h2{
 .logo{
   width:100px;
 
+}
+.textAcceuil{
+  font-size: 20px;
 }
 .margin-top{
   margin-top: 30px;
@@ -62,6 +66,17 @@ h2{
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
+}
+.cardBorder{
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+.downButton{
+  position : absolute;
+  bottom : 0px;
+}
+.downZone{
+  position : relative;
 }
 @keyframes animate{
   0%,100%{

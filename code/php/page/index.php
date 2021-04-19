@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- je link les icones de materialize si besion neccessaire -->
   <link rel="stylesheet" href="../../css/style.css"> <!-- je link mon css afin de chager les parametre de ma page -->
   <link rel="stylesheet" href="../../css/materialize.min.css" media="screen,projection" /> <!-- j'utilise materialize pour mon site -->
+  <link rel="stylesheet" href="../../css/flexboxgrid.min.css" media="screen,projection" /> <!-- j'utilise FlexBox Grid (en ayant modifier les fonction row par rowFlex et col par colFlex) pour mon site -->
 
   <title><img class="logo" src="../../image/logo.png" alt="">Debossauto.fr</title>
 </head>
@@ -27,29 +28,24 @@
 
 
 
-
-
-
-
-
-
-
   <div class='espace'></div>
-  <h2 class="center black-text">Qui sommes nous ?</h2>
-  <div class="row">
-    <div class='col s4 m4 l4 offset-l4 center size'>
-      <p class="bold">Grâce à la technique du débosselage sans peinture, nous sommes un peu des kinésithérapeutes de l'automobile !</p>
-      <br>
-      <p> DEBOSSAUTO est une société française créée en 2003 par deux collaborateurs, spécialistes de la technique du débosselage sans peinture.
-        Nous justifions d'une expérience de plus de dix ans dans le métier.<br>
-        <br>
-        Debossauto intervient auprès des particuliers et des professionnels de l'automobile, qui vont des marques les plus courantes aux véhicules de prestiges.
-      </p>
+  <div class="textAcceuil">
+    <h2 class="center black-text">Qui sommes nous ?</h2>
+
+    <div class="row">
+      <div class="container center-align col s10 offset-s1 l8 offset-l2">
+        <p class="bold">Grâce à la technique du débosselage sans peinture, nous sommes un peu des kinésithérapeutes de l'automobile !</p>
+
+        <p>DEBOSSAUTO est une société française créée en 2003 par deux collaborateurs, spécialistes de la technique du débosselage sans peinture.</br>
+          Nous justifions d'une expérience de plus de dix ans dans le métier.</p>
+
+        <p>Debossauto intervient auprès des particuliers et des professionnels de l'automobile, qui vont des marques les plus courantes aux véhicules de prestiges.</p>
+      </div>
     </div>
   </div>
 
-
-  <div class="row">
+  <!--
+    <div class="row">
     <div class="col s12 m6 offset-l3">
       <div class="card ">
         <div class="card-content black-text">
@@ -65,49 +61,84 @@
       </div>
     </div>
   </div>
+  -->
 
-
-
-  <div class="row">
-    <div class="col s12 m8 offset-l2">
-      <div class="card ">
-        <div class="card-content black-text">
-          <div class="row">
-            <div class="left-align col s6">
-              Avant
-            </div>
-            <div class="right-align col s6">
-              Apres
-            </div>
-          </div>
-          <img class="materialboxed imgbosseav" width="650" src="../../../assets/avant1.jpg" alt="img dsp bosse av">
-          <img class="materialboxed imgbosseap" width="650" src="../../../assets/apres1.jpg" alt="img dsp bosse ap">
-          <span class="card-title center">Nos Services</span>
+  <!--
+  <div class="container col s12 m7 l5">
+    <h2 class="header">Horizontal Card</h2>
+    <div class="card horizontal">
+      <div class="card-image s12 m6 l6">
+        <img src="../../../assets/morgan5.jpg">
+      </div>
+      <div class="card-stacked s12 m6 l6">
+        <div class="card-content">
+          <span class="card-title center">Qu'est ce que le D.S.P</span>
           <p>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
             Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
             En France, dans les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des professionnels de l’automobile.
             Aujourd’hui tout le monde peut profiter de ce service.</p>
-          <a class="waves-effect waves-light btn" href='dsp.php'><i class="material-icons left">cloud</i>Voir Plus De Détails</a>
+        </div>
+        <div class="card-action">
+          <a class="waves-effect waves-light btn" href='dsp.php'>Voir Plus De Détails</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  -->
 
+  <div class="container">
+    <div class="cardBorder">
+      <div class="rowFlex">
+        <div class="colFlex-xs-12 colFlex-md-6">
+          <div class="card-image">
+            <img width="100%" src="../../../assets/morgan5.jpg">
+          </div>
+        </div>
+        <div class="colFlex-xs-12 colFlex-md-6" style="padding:15px">
+          <div class="rowFlex" style="height: 90%">
+            <div class="colFlex-xs-12">
+              <h4 class="center-align">Qu'est ce que le D.S.P</h4>
+              <p>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
+                Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
+                En France, dans les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des professionnels de l’automobile.
+                Aujourd’hui tout le monde peut profiter de ce service.</p>
+            </div>
+          </div>
+          <div class="rowFlex bottom-xs center-xs" style="height: 10%">
+            <div class="colFlex-xs-12">
+              <a class="waves-effect waves-light btn">Voir Plus De Détails</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
 
-
-
-
-
-
-
-
-
+  <div class="container">
+    <div class="cardBorder">
+      <div class="row">
+        <div class="col s12 m12 l4">
+          <h3 class="bold"> Avant: </h3>
+          <img width="100%" src="../../../assets/avant1.jpg" alt="img dsp bosse av">
+        </div>
+        <div class="col s12 m12 l4">
+          <div class="cardBorder">
+            <h3 class="bold">Nos Services</h3>
+            <p></br>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
+              Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
+              En France, dans les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des professionnels de l’automobile.
+              Aujourd’hui tout le monde peut profiter de ce service.</p>
+            <a class="waves-effect waves-light btn col s8 offset-s2" href='dsp.php'><i class="material-icons left">cloud</i>Voir Plus De Détails</a>
+          </div>
+        </div>
+        <div class="col s12 m12 l4">
+          <h3 class="bold">Apres:</h3>
+          <img width="100%" src="../../../assets/apres1.jpg" alt="img dsp bosse ap">
+        </div>
+      </div>
+    </div>
   </div>
-
-
-
-
 
 
   <?php include '../content/footer.php' ?>
