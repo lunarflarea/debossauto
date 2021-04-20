@@ -25,11 +25,11 @@
     <div class="container">
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="Ex: DUBOIS" id="first_name" type="text" class="validate">
+          <input placeholder="Ex: DUBOIS" id="first_name" type="text" class="validate" class="white-text">
           <label name="Nom" for="first_name">Nom</label>
         </div>
         <div class="input-field col s6">
-          <input placeholder="Ex: Paul" id="last_name" type="text" class="validate">
+          <input placeholder="Ex: Paul" id="last_name" type="text" class="validate" class="white-text">
           <label for="last_name" name="Prénom">Prénom</label>
         </div>
       </div>
@@ -37,15 +37,15 @@
 
       <div class="row">
         <div class="input-field col s4">
-          <input placeholder="5 Rue Quelque Part" type="text" class="validate">
+          <input placeholder="5 Rue Quelque Part" type="text" class="validate" class="white-text">
           <label for="disabled" name="Adresse">Adresse (où vous souhaitez l'intervention)</label>
         </div>
         <div class="input-field col s4">
-          <input placeholder="Ex: Paris" type="text" class="validate">
+          <input placeholder="Ex: Paris" type="text" class="validate" class="white-text">
           <label for="disabled" name="Ville">Ville</label>
         </div>
         <div class="input-field col s4">
-          <input placeholder="Ex: 75000" type="text" class="validate">
+          <input placeholder="Ex: 75000" type="text" class="validate" class="white-text">
           <label for="disabled" name="Codepostal">Code postal</label>
         </div>
       </div>
@@ -53,11 +53,11 @@
 
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="Ex: 06 07 08 09 10" type="text" class="validate">
+          <input placeholder="Ex: 06 07 08 09 10" type="text" class="validate" class="white-text">
           <label for="disabled" name="Telephone">Télephone</label>
         </div>
         <div class="input-field col s6">
-          <input placeholder="Ex: Paul.dubois@email.mail" type="text" class="validate">
+          <input placeholder="Ex: Paul.dubois@email.mail" type="text" class="validate" class="white-text">
           <label for="disabled" name="Email">Email</label>
         </div>
       </div>
@@ -65,7 +65,7 @@
 
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="Ex: Renault (Initial Paris)" type="text" class="validate">
+          <input placeholder="Ex: Renault (Initial Paris)" type="text" class="validate" class="white-text">
           <label for="disabled" name="Voiture">Voiture</label>
         </div>
         <form action="#">
