@@ -8,13 +8,14 @@
     <title></title>
   </head>
   <body>
+  <div class='blue-grey darken-3'>
     <head>
       <?php $dep = '';?>
      <?php  include '../content/nav.php';?>
     </head>
 
 
-    <div class="row blue">
+    <div class="row">
       <div class="container center-align">
         <h1 class="white-text">Une bosse sur votre carrosserie? Contactez-nous!</h1>
       </div>
@@ -26,26 +27,6 @@
         <div class="input-field col s6">
           <input placeholder="Ex: DUBOIS" id="first_name" type="text" class="validate">
           <label for="first_name">Noms</label>
-        </div>
-<<<<<<< HEAD
-        <div class="row">
-          <div class="input-field col s4">
-            <input placeholder="5 Rue Quelque Part" type="text" class="validate">
-            <label for="disabled">Adresse (où vous souhaitez l'intervention)</label>
-          </div>
-          <div class="input-field col s4">
-            <input placeholder="Ex: Paris" type="text" class="validate">
-            <label for="disabled">Ville</label>
-          </div>
-          <div class="input-field col s4">
-            <input placeholder="Ex: 75000" type="text" class="validate">
-            <label for="disabled">Code Postale</label>
-          </div>
-=======
-        <div class="input-field col s6">
-          <input placeholder="Ex: Paul" id="last_name" type="text" class="validate">
-          <label for="last_name">Prenom</label>
->>>>>>> e66751312816ffdd96f34a787ec2f228e18b292b
         </div>
       </div>
 
@@ -114,7 +95,9 @@
       </button>
 
     </div>
-
+    <br>
+    <?php include '../content/footer.php'?>
+    </div>
     <script src="../../js/jquery.min.js" charset="utf-8"></script> <!-- je link le jquery -->
     <script type="text/javascript" src="../../js/materialize.min.js" charset="utf-8"></script> <!-- j'utilise du javascript deja initialiser avec materialize -->
 

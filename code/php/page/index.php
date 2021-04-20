@@ -10,17 +10,20 @@
     <title><img class="logo" src="../../image/logo.png" alt="">Debossauto.fr</title>
   </head>
   <body>
-    
+    <div class=' blue-grey darken-3'>
 
       <?php $dep = ''; ?>
       <?php include '../content/nav.php' ?>
     
-
+<div class='row'>
+<div class='col s12 m12 l12'>
       <div class="back">
 <div class="titre">
   <h1>Debossauto</h1>
   <h2>24 ans d'expérience a votre disposition</h2>
   </div>
+      </div>
+      </div>
       </div>
 
       
@@ -33,9 +36,9 @@
 
 
       <div class='espace'></div>
-      <h2 class="center black-text">Qui sommes nous ?</h2>
+      <h2 class="center white-text">Qui sommes nous ?</h2>
       <div class="row">
-<div class='col s4 m4 l4 offset-l4 center size'>
+<div class='col s4 m4 l4 offset-l4 center size white-text'>
       <p class="bold">Grâce à la technique du débosselage sans peinture, nous sommes un peu des kinésithérapeutes de l'automobile !</p>
       <br>
 <p> DEBOSSAUTO est une société française créée en 2003 par deux collaborateurs, spécialistes de la technique du débosselage sans peinture.
@@ -52,11 +55,11 @@ Debossauto intervient auprès des particuliers et des professionnels de l'autom
       <div class="card ">
         <div class="card-content black-text">
         <img class="materialboxed imgmorgan" width="650" src="../../../assets/morgan5.jpg" alt="img dsp sur morgan">
-          <span class="card-title center">Qu'est ce que le D.S.P</span>
+          <span class="card-title center ">Qu'est ce que le D.S.P</span>
           <p>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
 Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
 En  France, dans  les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des  professionnels de l’automobile.
-Aujourd’hui tout le monde peut profiter de ce service.</p>
+Aujourd’hui tout le monde peut profiter de ce service.</p><br>
 <a class="waves-effect waves-light btn" href='dsp.php'><i class="material-icons left">cloud</i>Voir Plus De Détails</a>
 
         </div>
@@ -84,7 +87,7 @@ Aujourd’hui tout le monde peut profiter de ce service.</p>
           <p>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
 Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
 En  France, dans  les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des  professionnels de l’automobile.
-Aujourd’hui tout le monde peut profiter de ce service.</p>
+Aujourd’hui tout le monde peut profiter de ce service.</p><br>
 <a class="waves-effect waves-light btn" href='dsp.php'><i class="material-icons left">cloud</i>Voir Plus De Détails</a>
 
         </div>
@@ -97,6 +100,22 @@ Aujourd’hui tout le monde peut profiter de ce service.</p>
 
 
 
+ <div class="row">
+    <div class="col s3 m3 offset-l5">
+      <div class="card ">
+        <div class="card-content black-text">
+        <img class="materialboxed imgmorgan" width="500" src="../../../assets/morgan5.jpg" alt="img dsp sur morgan">
+          <span class="card-title center ">Qu'est ce que le D.S.P</span>
+          <p>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
+Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
+En  France, dans  les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des  professionnels de l’automobile.
+Aujourd’hui tout le monde peut profiter de ce service.</p><br>
+<a class="waves-effect waves-light btn" href='dsp.php'><i class="material-icons left">cloud</i>Voir Plus De Détails</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -111,7 +130,7 @@ Aujourd’hui tout le monde peut profiter de ce service.</p>
 
 <?php include '../content/footer.php' ?>
 
-
+</div>
 <script src="../../js/jquery.min.js" charset="utf-8"></script> <!-- je link le jquery -->
 <script type="text/javascript" src="../../js/materialize.min.js" charset="utf-8"></script> <!-- j'utilise du javascript deja initialiser avec materialize -->
 <script type="text/javascript">
@@ -146,4 +165,4 @@ var instance = M.Carousel.init({
 
 </script>
   </body>
-</html>
+</html> 
