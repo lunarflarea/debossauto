@@ -22,8 +22,6 @@
     <ul id="nav-mobile" class="right hide-on-med-and-down buttons">
     <li><a href="../page/index.php">Accueil</a></li>
       <li><a href="../page/dsp.php">Presentation</a></li>
-      <li><a href="../page/avantages.php">Les Avantages</a></li>
-      <li><a href="../page/partenaires.php">Nos partenaires</a></li>
       <li><a href="../page/contact.php">Nous contacter</a></li>
 
 

@@ -11,9 +11,6 @@
            <h5 class="white-text">Navigation</h5>
            <ul>
              <li><a class="grey-text text-lighten-3" href="../page/index.php">Accueil</a></li>
-             <li><a class="grey-text text-lighten-3" href="../page/presentation.php">Presentation</a></li>
-             <li><a class="grey-text text-lighten-3" href="../page/avantages.php">Les Avantages</a></li>
-             <li><a class="grey-text text-lighten-3" href="../page/partenaires.php">Nos partenaires</a></li>
              <li><a class="grey-text text-lighten-3" href="../page/contact.php">Nous contacter</a></li>
 
 

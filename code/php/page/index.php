@@ -120,19 +120,23 @@
       <div class="row">
         <div class="col s12 m12 l4">
           <h3 class="bold"> Avant: </h3>
-          <img width="60%" src="../../../assets/avant1.jpg" alt="img dsp bosse av">
+          <img width="100%" src="../../../assets/avant1.jpg" alt="img dsp bosse av">
         </div>
         <div class="col s12 m12 l4">
-            <h3 class="bold">Nos Services</h3>
-            <p></br>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
-              Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
-              En France, dans les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des professionnels de l’automobile.
-              Aujourd’hui tout le monde peut profiter de ce service.</p>
-            <a class="waves-effect waves-light btn col s8 offset-s2" href='dsp.php'><i class="material-icons left">cloud</i>Voir Plus De Détails</a>
+          <h3 class="bold">Nos Services</h3>
+          <p></br>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
+            Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
+            En France, dans les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des professionnels de l’automobile.
+            Aujourd’hui tout le monde peut profiter de ce service.</p>
+          <p>Chez Débossauto, pas besoin de vous déplacer:</br>
+            Le techniciens intervient sur votre domicile ou sur votre lieu de travaille, dans la limite de son perimètre d'intervention:</br>
+            Département du 92, 95 et du 78 (nous consulter pour les secteurs limitrophes)</p>
+          <p>Pour une intervention, vous pouvez nous contacter au 06.07.65.16.80 ou en cliquant sur "<a href="../page/contact.php">Nous contacter</a>". Nous vous repondrons dans les meilleur délais.</p>
+          <a class="waves-effect waves-light btn col s8 offset-s2" href='dsp.php'><i class="material-icons left">cloud</i>Voir Plus De Détails</a>
         </div>
         <div class="col s12 m12 l4">
           <h3 class="bold">Apres:</h3>
-          <img width="60%" src="../../../assets/apres1.jpg" alt="img dsp bosse ap">
+          <img width="100%" src="../../../assets/apres1.jpg" alt="img dsp bosse ap">
         </div>
       </div>
     </div>
