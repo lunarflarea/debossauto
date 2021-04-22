@@ -32,13 +32,10 @@
           <input placeholder="Ex: DUBOIS" id="first_name" type="text" class="validate" class="white-text">
           <label name="Nom" for="first_name">Nom</label>
         </div>
-<<<<<<< HEAD
-=======
         <div class="input-field col s6">
           <input placeholder="Ex: Paul" id="last_name" type="text" class="validate" class="white-text">
           <label for="last_name" name="Prénom">Prénom</label>
         </div>
->>>>>>> 50798102bcf176d3a369df91821105bde9214a5d
       </div>
 
 
