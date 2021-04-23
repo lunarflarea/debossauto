@@ -133,3 +133,20 @@ h2{
 label{
   opacity: 0.5;
 }
+.video{
+  width: 500px;
+}
+.back2{
+  background: url('../../assets/pozzi5.png');
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.align{
+  display: flex;
+  text-align: center;
+}

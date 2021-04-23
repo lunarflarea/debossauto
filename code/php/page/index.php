@@ -137,7 +137,11 @@
       </div>
     </div>
   </div>
-
+<div class="row center video">
+  <video controls="controls">
+    <source src="../../../assets/Debossauto_300_cut.mp4">
+  </video>
+  </div>
 
   <?php include '../content/footer.php' ?>
 

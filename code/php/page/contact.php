@@ -8,11 +8,7 @@
     <title></title>
   </head>
   <body>
-<<<<<<< HEAD
   <div class='blue-grey darken-3'>
-=======
-  <div class="blue-grey darken-3">
->>>>>>> 50798102bcf176d3a369df91821105bde9214a5d
     <head>
       <?php $dep = '';?>
      <?php  include '../content/nav.php';?>
@@ -21,7 +17,7 @@
 
     <div class="row">
       <div class="container center-align">
-        <h1 class="white-text">Une bosse sur votre carrosserie ? Contactez-nous !</h1>
+        <h1 class="white-text">Une bosse sur votre carrosserie? Contactez-nous!</h1>
       </div>
     </div>
 
@@ -29,56 +25,53 @@
     <div class="container">
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="Ex: DUBOIS" id="first_name" type="text" class="validate" class="white-text">
-          <label name="Nom" for="first_name">Nom</label>
+          <input placeholder="Ex: DUBOIS" id="first_name" type="text" class="validate">
+          <label for="first_name">Noms</label>
         </div>
-<<<<<<< HEAD
-=======
         <div class="input-field col s6">
-          <input placeholder="Ex: Paul" id="last_name" type="text" class="validate" class="white-text">
-          <label for="last_name" name="Prénom">Prénom</label>
+          <input placeholder="Ex: Paul" id="last_name" type="text" class="validate">
+          <label for="last_name">Prenom</label>
         </div>
->>>>>>> 50798102bcf176d3a369df91821105bde9214a5d
       </div>
 
 
       <div class="row">
         <div class="input-field col s4">
-          <input placeholder="5 Rue Quelque Part" type="text" class="validate" class="white-text">
-          <label for="disabled" name="Adresse">Adresse (où vous souhaitez l'intervention)</label>
+          <input placeholder="5 Rue Quelque Part" type="text" class="validate">
+          <label for="disabled">Adresse (où vous souhaitez l'intervention)</label>
         </div>
         <div class="input-field col s4">
-          <input placeholder="Ex: Paris" type="text" class="validate" class="white-text">
-          <label for="disabled" name="Ville">Ville</label>
+          <input placeholder="Ex: Paris" type="text" class="validate">
+          <label for="disabled">Ville</label>
         </div>
         <div class="input-field col s4">
-          <input placeholder="Ex: 75000" type="text" class="validate" class="white-text">
-          <label for="disabled" name="Codepostal">Code postal</label>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="input-field col s6">
-          <input placeholder="Ex: 06 07 08 09 10" type="text" class="validate" class="white-text">
-          <label for="disabled" name="Telephone">Télephone</label>
-        </div>
-        <div class="input-field col s6">
-          <input placeholder="Ex: Paul.dubois@email.mail" type="text" class="validate" class="white-text">
-          <label for="disabled" name="Email">Email</label>
+          <input placeholder="Ex: 75000" type="text" class="validate">
+          <label for="disabled">Code Postale</label>
         </div>
       </div>
 
 
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="Ex: Renault (Initial Paris)" type="text" class="validate" class="white-text">
-          <label for="disabled" name="Voiture">Voiture</label>
+          <input placeholder="Ex: 06 07 08 09 10" type="text" class="validate">
+          <label for="disabled">Tellephone</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="Ex: Paul.dubois@email.mail" type="text" class="validate">
+          <label for="disabled">Email</label>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Ex: Renault (Initial Paris)" type="text" class="validate">
+          <label for="disabled">Voiture</label>
         </div>
         <form action="#">
           <div class="file-field input-field col s6">
             <div class="btn">
-              <span>Envoyer des images</span>
+              <span>Envoyer image</span>
               <input type="file" multiple>
             </div>
             <div class="file-path-wrapper">
@@ -94,7 +87,7 @@
           <div class="row">
             <div class="input-field col s12">
               <i class="material-icons prefix">mode_edit</i>
-              <textarea id="icon_prefix2" class="materialize-textarea" name="content"></textarea>
+              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
               <label for="icon_prefix2">Message/description de la bosse</label>
             </div>
           </div>
@@ -105,10 +98,6 @@
         <i class="material-icons right">send</i>
       </button>
 
-    <br />
-    </div>
-
-    <?php include '../content/footer.php' ?>
     </div>
     <br>
     <?php include '../content/footer.php'?>
