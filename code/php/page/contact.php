@@ -118,8 +118,6 @@
     <?php include '../content/footer.php' ?>
     </div>
     <br>
-    <?php include '../content/footer.php'?>
-    </div>
     <script src="../../js/jquery.min.js" charset="utf-8"></script> <!-- je link le jquery -->
     <script type="text/javascript" src="../../js/materialize.min.js" charset="utf-8"></script> <!-- j'utilise du javascript deja initialiser avec materialize -->
 

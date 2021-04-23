@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- je link les icones de materialize si besion neccessaire -->
     <link rel="stylesheet" href="../../css/style.css"> <!-- je link mon css afin de changer les parametre de ma page -->
     <link rel="stylesheet" href="../../css/materialize.min.css"  media="screen,projection"/> <!-- j'utilise materialize pour mon site -->
+    <link rel="stylesheet" href="../../css/style.css">
     <title></title>
   </head>
   <body>
