@@ -8,11 +8,7 @@
     <title></title>
   </head>
   <body>
-<<<<<<< HEAD
-  <div class='blue-grey darken-3'>
-=======
   <div class="blue-grey darken-3">
->>>>>>> 50798102bcf176d3a369df91821105bde9214a5d
     <head>
       <?php $dep = '';?>
      <?php  include '../content/nav.php';?>
