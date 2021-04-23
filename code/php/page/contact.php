@@ -5,14 +5,15 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- je link les icones de materialize si besion neccessaire -->
     <link rel="stylesheet" href="../../css/style.css"> <!-- je link mon css afin de changer les parametre de ma page -->
     <link rel="stylesheet" href="../../css/materialize.min.css"  media="screen,projection"/> <!-- j'utilise materialize pour mon site -->
-    <title></title>
+    <title></title>    
+   <?php session_start(); ?>
   </head>
   <body>
   <div class="blue-grey darken-3">
-    <head>
+    <header>
       <?php $dep = '';?>
      <?php  include '../content/nav.php';?>
-    </head>
+    </header>
 
 
     <div class="row">
@@ -20,53 +21,65 @@
         <h1 class="white-text">Une bosse sur votre carrosserie ? Contactez-nous !</h1>
       </div>
     </div>
+    <?php
+      if (isset($_SESSION['contact_send_error'])) {
+    ?>
+    <div class="row">
+      <div class="container center-align">
+        <p class="red-text">
+          <?php echo($_SESSION['contact_send_error']);
+          unset($_SESSION['contact_send_error']); ?>
+        </p>
+      </div>
+    </div>
+    <?php }; ?>
 
-
+    <form action="../content/contactsend.php" method="post">
     <div class="container">
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="Ex: DUBOIS" id="first_name" type="text" class="validate" class="white-text">
-          <label name="Nom" for="first_name">Nom</label>
+          <input name="nom" placeholder="Ex: DUBOIS" id="first_name" type="text" class="validate" class="white-text">
+          <label for="first_name">Nom</label>
         </div>
         <div class="input-field col s6">
-          <input placeholder="Ex: Paul" id="last_name" type="text" class="validate" class="white-text">
-          <label for="last_name" name="Prénom">Prénom</label>
+          <input name="prenom" placeholder="Ex: Paul" id="last_name" type="text" class="validate" class="white-text">
+          <label for="last_name">Prénom</label>
         </div>
       </div>
 
 
       <div class="row">
         <div class="input-field col s4">
-          <input placeholder="5 Rue Quelque Part" type="text" class="validate" class="white-text">
-          <label for="disabled" name="Adresse">Adresse (où vous souhaitez l'intervention)</label>
+          <input name="adresse" placeholder="5 Rue Quelque Part" type="text" class="validate" class="white-text">
+          <label for="disabled">Adresse (où vous souhaitez l'intervention)</label>
         </div>
         <div class="input-field col s4">
-          <input placeholder="Ex: Paris" type="text" class="validate" class="white-text">
-          <label for="disabled" name="Ville">Ville</label>
+          <input name="ville" placeholder="Ex: Paris" type="text" class="validate" class="white-text">
+          <label for="disabled">Ville</label>
         </div>
         <div class="input-field col s4">
-          <input placeholder="Ex: 75000" type="text" class="validate" class="white-text">
-          <label for="disabled" name="Codepostal">Code postal</label>
+          <input name="codepostal" placeholder="Ex: 75000" type="text" class="validate" class="white-text">
+          <label for="disabled">Code postal</label>
         </div>
       </div>
 
 
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="Ex: 06 07 08 09 10" type="text" class="validate" class="white-text">
-          <label for="disabled" name="Telephone">Télephone</label>
+          <input name="telephone" placeholder="Ex: 06 07 08 09 10" type="text" class="validate" class="white-text">
+          <label for="disabled">Télephone</label>
         </div>
         <div class="input-field col s6">
-          <input placeholder="Ex: Paul.dubois@email.mail" type="text" class="validate" class="white-text">
-          <label for="disabled" name="Email">Email</label>
+          <input name="email" placeholder="Ex: Paul.dubois@email.mail" type="text" class="validate" class="white-text">
+          <label for="disabled">Email</label>
         </div>
       </div>
 
 
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="Ex: Renault (Initial Paris)" type="text" class="validate" class="white-text">
-          <label for="disabled" name="Voiture">Voiture</label>
+          <input name="voiture" placeholder="Ex: Renault (Initial Paris)" type="text" class="validate" class="white-text">
+          <label for="disabled">Voiture</label>
         </div>
         <form action="#">
           <div class="file-field input-field col s6">
@@ -100,6 +113,7 @@
 
     <br />
     </div>
+    </form>
 
     <?php include '../content/footer.php' ?>
     </div>

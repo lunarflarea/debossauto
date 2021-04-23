@@ -14,10 +14,10 @@
 
 <body>
 
-
-  <?php $dep = ''; ?>
-  <?php include '../content/nav.php' ?>
-
+  <header>
+    <?php $dep = ''; ?>
+    <?php include '../content/nav.php' ?>
+  </header>
 
   <div class="back">
     <div class="titre">
