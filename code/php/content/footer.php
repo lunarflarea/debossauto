@@ -1,5 +1,3 @@
-
-
 <footer class="page-footer blue-grey darken-1">
      <div class="container">
        <div class="row">
