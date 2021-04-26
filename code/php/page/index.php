@@ -106,7 +106,7 @@
           </div>
           <div class="rowFlex bottom-xs center-xs" style="height: 10%">
             <div class="colFlex-xs-12">
-              <a class="waves-effect waves-light btn">Voir Plus De Détails</a>
+              <a class="waves-effect waves-light btn" href="../page/dsp.php">Voir Plus De Détails</a>
             </div>
           </div>
         </div>
@@ -127,8 +127,7 @@
             <p></br>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
               Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
               En France, dans les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des professionnels de l’automobile.
-              Aujourd’hui tout le monde peut profiter de ce service.</p>
-            <a class="waves-effect waves-light btn col s8 offset-s2" href='dsp.php'><i class="material-icons left">cloud</i>Voir Plus De Détails</a>
+              Aujourd’hui tout le monde peut profiter de ce service.Nous couvrons les départements 60,75,78,92,93 et 95.</p>
         </div>
         <div class="col s12 m12 l4">
           <h3 class="bold">Apres:</h3>
@@ -137,7 +136,7 @@
       </div>
     </div>
   </div>
-<div class="row center video">
+<div class="row center video" style="">
   <video controls="controls">
     <source src="../../../assets/Debossauto_300_cut.mp4">
   </video>

@@ -86,7 +86,7 @@
         <form class="col s12">
           <div class="row">
             <div class="input-field col s12">
-              <i class="material-icons prefix">mode_edit</i>
+              <i class="material-icons prefix white-text">mode_edit</i>
               <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
               <label for="icon_prefix2">Message/description de la bosse</label>
             </div>

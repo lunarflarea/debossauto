@@ -130,7 +130,7 @@ h2{
 .size{
   font-size: 20px;
 }
-label{
+input{
   opacity: 0.5;
 }
 .video{
@@ -149,4 +149,18 @@ label{
 .align{
   display: flex;
   text-align: center;
+}
+.imgpratique{
+}
+.margleft{
+  margin-left: -100px;
+}
+.margright{
+  margin-right: -200px;
+}
+.allinea{
+  margin-left:120px;
+}.card{
+  width: 350px;
+  height: 300px
 }
