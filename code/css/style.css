@@ -153,9 +153,9 @@ input{
 .align{
   display: flex;
   text-align: center;
+  margin-left:100px;
 }
-.imgpratique{
-}
+
 .margleft{
   margin-left: -100px;
 }
