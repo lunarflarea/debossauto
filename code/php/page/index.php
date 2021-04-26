@@ -14,10 +14,10 @@
 
 <body>
 
-
-  <?php $dep = ''; ?>
-  <?php include '../content/nav.php' ?>
-
+  <header>
+    <?php $dep = ''; ?>
+    <?php include '../content/nav.php' ?>
+  </header>
 
   <div class="back">
     <div class="titre">
@@ -43,48 +43,6 @@
       </div>
     </div>
   </div>
-
-  <!--
-    <div class="row">
-    <div class="col s12 m6 offset-l3">
-      <div class="card ">
-        <div class="card-content black-text">
-          <img class="materialboxed imgmorgan" width="650" src="../../../assets/morgan5.jpg" alt="img dsp sur morgan">
-          <span class="card-title center">Qu'est ce que le D.S.P</span>
-          <p>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
-            Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
-            En France, dans les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des professionnels de l’automobile.
-            Aujourd’hui tout le monde peut profiter de ce service.</p>
-          <a class="waves-effect waves-light btn" href='dsp.php'><i class="material-icons left">cloud</i>Voir Plus De Détails</a>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  -->
-
-  <!--
-  <div class="container col s12 m7 l5">
-    <h2 class="header">Horizontal Card</h2>
-    <div class="card horizontal">
-      <div class="card-image s12 m6 l6">
-        <img src="../../../assets/morgan5.jpg">
-      </div>
-      <div class="card-stacked s12 m6 l6">
-        <div class="card-content">
-          <span class="card-title center">Qu'est ce que le D.S.P</span>
-          <p>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
-            Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
-            En France, dans les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des professionnels de l’automobile.
-            Aujourd’hui tout le monde peut profiter de ce service.</p>
-        </div>
-        <div class="card-action">
-          <a class="waves-effect waves-light btn" href='dsp.php'>Voir Plus De Détails</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  -->
 
   <div class="container">
     <div class="cardBorder">
@@ -120,18 +78,23 @@
       <div class="row">
         <div class="col s12 m12 l4">
           <h3 class="bold"> Avant: </h3>
-          <img width="60%" src="../../../assets/avant1.jpg" alt="img dsp bosse av">
+          <img width="100%" src="../../../assets/avant1.jpg" alt="img dsp bosse av">
         </div>
         <div class="col s12 m12 l4">
-            <h3 class="bold">Nos Services</h3>
-            <p></br>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
-              Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
-              En France, dans les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des professionnels de l’automobile.
-              Aujourd’hui tout le monde peut profiter de ce service.Nous couvrons les départements 60,75,78,92,93 et 95.</p>
+          <h3 class="bold">Nos Services</h3>
+          <p></br>A l’origine, cette technique a été mise au point, par les constructeurs automobiles, pour réparer des défauts légers, causé par les nombreuses manipulations des véhicules, au cours de leurs fabrications. On appelait ces techniciens, des tôliers sur laques.
+            Cette technique artisanale très pointue a ensuite évolué, pour devenir un métier à part entière.
+            En France, dans les années 1990, les premiers techniciens spécialisés ont développés ce service auprès des professionnels de l’automobile.
+            Aujourd’hui tout le monde peut profiter de ce service.</p>
+          <p>Chez Débossauto, pas besoin de vous déplacer:</br>
+            Le techniciens intervient sur votre domicile ou sur votre lieu de travaille, dans la limite de son perimètre d'intervention:</br>
+            Département du 92, 95 et du 78 (nous consulter pour les secteurs limitrophes)</p>
+          <p>Pour une intervention, vous pouvez nous contacter au 06.07.65.16.80 ou en cliquant sur "<a href="../page/contact.php">Nous contacter</a>". Nous vous repondrons dans les meilleur délais.</p>
+          <a class="waves-effect waves-light btn col s8 offset-s2" href='dsp.php'><i class="material-icons left">cloud</i>Voir Plus De Détails</a>
         </div>
         <div class="col s12 m12 l4">
           <h3 class="bold">Apres:</h3>
-          <img width="60%" src="../../../assets/apres1.jpg" alt="img dsp bosse ap">
+          <img width="100%" src="../../../assets/apres1.jpg" alt="img dsp bosse ap">
         </div>
       </div>
     </div>
